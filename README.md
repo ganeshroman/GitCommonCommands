@@ -111,7 +111,7 @@ $ git init
         $ git config --global user.name "User name"
 
         - Set the email:
-        $ git config --global user.email "himanshudubey481@gmail.com"
+        $ git config --global user.email "example@gmail.com"
 
         - Set the default editor:
         $ git config --global core.editor Vim
