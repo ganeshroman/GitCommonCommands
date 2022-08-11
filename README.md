@@ -103,7 +103,7 @@ $ git init
 
 ## GIT Commond Explore
 
-  1. Git configuration
+  ###1. Git configuration
     Git config
         Get and set configuration variables that control all facets of how Git looks and operates.
         
@@ -127,7 +127,7 @@ $ git init
         $ git config --global alias.st status
 
 
-2. Starting a project
+###2. Starting a project
     - Git init
     Create a local repository:
     $ git init
@@ -136,7 +136,7 @@ $ git init
     Make a local copy of the server repository.
     $ git clone
 
-3. Local changes
+###3. Local changes
     - Git add
     Add a file to staging (Index) area:
     $ git add Filename
@@ -148,7 +148,7 @@ $ git init
     Record or snapshots the file permanently in the version history with a message.
     $ git commit -m " Commit Message"
 
-4. Track changes
+###4. Track changes
 
   Git status
   Display the state of the working directory and the staging area.
@@ -158,7 +158,7 @@ $ git init
   $ git show
 
 
-5. Commit History
+###5. Commit History
     Git log
     Display the most recent commits and the status of the head:
     $ git log
@@ -170,7 +170,7 @@ $ git init
     $ git log -stat
 
     
-6. Ignoring files
+###6. Ignoring files
     .gitignore
     
     Specify intentionally untracked files that Git should ignore. Create .gitignore:
@@ -219,7 +219,7 @@ Git checkout
     Apply the changes introduced by some existing commit:
     $ git cherry-pick
 
-8. Merging
+###8. Merging
     Git merge
     Merge the branches:
     $ git merge
@@ -239,7 +239,7 @@ Git checkout
     Allow various operations like edit, rewrite, reorder, and more on existing commits.
     $ git rebase -i
 
-9. Remote
+###9. Remote
     Git remote
     Check the configuration of the remote server:
     $ git remote -v
@@ -265,7 +265,7 @@ Git checkout
     $ git push origin master Pull data from remote server:
     $ git pull origin master
 
-10. Pushing Updates
+###10. Pushing Updates
     - Git push
     Transfer the commits from your local repository to a remote server. Push data to the remote server:
     $ git push origin master Force push data:
@@ -274,7 +274,7 @@ Git checkout
     Delete a remote branch by push command:
     $ git push origin -delete edited
 
-11. Pulling updates
+###11. Pulling updates
     - Git pull
     Pull the data from the server:
     $ git pull origin master
@@ -293,7 +293,7 @@ Git checkout
     Synchronize the local repository:
     $ git fetch origin
 
-12. Undo changes
+###12. Undo changes
     Git revert
     Undo the changes:
     $ git revert
@@ -305,7 +305,7 @@ Git checkout
     $ git reset -soft:
     $ git reset --mixed
 
-13. Removing files
+###13. Removing files
     Git rm
     Remove the files from the working tree and from the index:
     $ git rm <file Name>
